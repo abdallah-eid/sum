@@ -1,0 +1,14 @@
+#include <iostream>;
+using namespace std;
+
+void counter(int input) {
+	int months = input / 30;
+	int days = input % 30;
+	cout << "this is " << months << " months and " << days << " days." << endl;
+}
+int main() {
+	int input;
+	cin >> input;
+	counter(input);
+
+}
